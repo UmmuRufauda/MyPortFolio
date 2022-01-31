@@ -51,32 +51,25 @@ html {
 #home {
     display: flex;
     flex-direction: column;
-    height: 440px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
     justify-content: center;
-    align-items: center;
-    color: black;
+    color: white;
 }
 
-.carousel-item {
-    height: 40%;
-    width: 100%;
-}
-
-
-/*#home::before {
+#home::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url(../images/croped.jpg);
+    background-image: url(../images/seacompicback.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    /*background-size: 50%;
-    height: 500px;
-    width: 90%;
+    height: 900px;
+    width: 100%;
     z-index: -1;
-    opacity: .8;    
-}*/
+    opacity: .8;
+}
 
 .main {
     display: flex;
@@ -93,21 +86,29 @@ html {
     font-size: 2rem;
     text-align: center;
     margin: 40px 0px;
-    color: gray;
+    color: black;
+}
+
+.headingboxes {
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: blue;
 }
 
 .btn {
     padding: 10px 35px;
     background-color: transparent;
     border: 1px solid white;
-    color: thistle;
+    color: rgb(44, 26, 240);
     outline: none;
     transition: .6s ease;
 }
 
 .btn:hover {
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: black;
     box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 1px white, 0 0 15px white;
     font-weight: bold;
